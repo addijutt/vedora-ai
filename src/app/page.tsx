@@ -30,7 +30,7 @@ export default function Home() {
           <div className="w-full lg:w-6/12 md:pt-8">
               <h1 className="md:text-[70px] text-[60px] font-[300] md:flex gap-2 md:leading-[90px] leading-[70px]">Build <TextTransition className=""
                springConfig={presets.gentle}>   <span className="text-[#594CE9]">{words[index]}</span>  </TextTransition></h1>
-               <h1 className="md:text-[70px] text-[60px] font-[300] inline-block lg:leading-[20px] leading-[60px]"> on Vedora.ai</h1>
+               <h1 className="md:text-[70px] text-[60px] font-[300] inline-block lg:leading-[20px] leading-[70px]"> on Vedora.ai</h1>
               <p className="text-[20px] md:text-[22px] mt-8 mb-12">Vedora.ai is a Layer 2 blockchain that serves as the infrastructure layer for 
                 AI-enabled applications.   </p>              
             <div className="flex flex-wrap gap-6">
