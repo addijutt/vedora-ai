@@ -34,7 +34,7 @@ const Carousel = () => {
       }}
     >
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Develop</h4>
             {/* <img src="assets/w1.png" className="w-full mb-4" alt="" /> */}
@@ -50,7 +50,7 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Token</h4>
             {/* <img src="assets/w1.png" className="w-full mb-4" alt="" /> */}
@@ -66,7 +66,7 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Smart 
             contracts</h4>
@@ -83,7 +83,7 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Develop</h4>
             {/* <img src="assets/w1.png" className="w-full mb-4" alt="" /> */}
@@ -99,7 +99,7 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Token</h4>
             {/* <img src="assets/w1.png" className="w-full mb-4" alt="" /> */}
