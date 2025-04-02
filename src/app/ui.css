@@ -32,24 +32,9 @@ li {
   font-family: "Questrial", sans-serif !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .carousel-card {
-  flex: 0 0 calc(30% - 10px); Adjust size to show half on each side
-  max-width: calc(30% - 10px); Maintain max width for half
-  box-sizing: border-box;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
-} */
+button{
+  cursor: pointer;
+}
 .swiper-button-prev {
   left: 40px !important;
   background: transparent;
