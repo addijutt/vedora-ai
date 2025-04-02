@@ -35,17 +35,16 @@ const Contact = () => {
             <img src="/chevron-right.svg" className="h-[29px]" alt="" />
           </button>
         </div>
-        <label className="flex items-start space-x-2 max-w-lg">
-          <input
-            type="checkbox"
-            checked={checked}
-            onChange={() => setChecked(!checked)}
-            className="mt-1"
-          />
-          <span>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
-          </span>
-        </label>
+
+        <label className="custom-checkbox-container max-w-lg">
+      <input type="checkbox" checked={checked}
+            onChange={() => setChecked(!checked)} defaultChecked />
+      <span className="checkmark"></span>
+      <span className="checkbox-text">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
+      </span>
+    </label>
+        
       </form>
     </div>
   );

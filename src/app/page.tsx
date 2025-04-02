@@ -120,7 +120,6 @@ export default function Home() {
     </div>
   </div>
 
-  {/* Right Column - 5/12 on large screens */}
   <div className="md:col-span-5 bg-[#5C5C5C0D] rounded-[36px] p-6 flex flex-col gap-10 justify-between">
     <h2 className="text-[50px] font-[600] self-end">2s</h2>
     <div className="flex items-center space-x-2">

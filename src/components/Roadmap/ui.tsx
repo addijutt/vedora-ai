@@ -64,7 +64,7 @@ export const Roadmap = () => {
                 <p className="text-[18px] mt-4 md:mt-14">{phase.extra}</p>
               )}
               {index < roadmapData.length - 1 && (
-                <div className="absolute left-0 md:right-0 md:top-[30px] bottom-[-60px] text-blue-600">
+                <div className="absolute left-0 md:left-auto md:right-0 md:top-[30px] bottom-[-60px]">
                   <img src="/arrow-right.svg" alt="" />
                 </div>
               )}

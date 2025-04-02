@@ -140,6 +140,49 @@ nav ul li a{
   padding-left:  20px;
   padding-right:  20px;
 }
+.custom-checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.custom-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #594CE9;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  transition: background 0.2s ease-in-out;
+}
+
+.custom-checkbox-container input:checked + .checkmark {
+  background-color: #594CE9;
+}
+
+.custom-checkbox-container input:checked + .checkmark::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.checkbox-text {
+  font-size: 16px;
+  display: flex;
+  flex: 1;
+  margin-top: -4px;
+}
 
 @media (max-width: 767px) {
   
