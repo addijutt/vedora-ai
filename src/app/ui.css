@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+#root {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  color: #5C5C5C;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+/* a:hover {
+  color: inherit;
+} */
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.suisse{
+  font-family: "Questrial", sans-serif !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .carousel-card {
+  flex: 0 0 calc(30% - 10px); Adjust size to show half on each side
+  max-width: calc(30% - 10px); Maintain max width for half
+  box-sizing: border-box;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+} */
+.swiper-button-prev {
+  left: 40px !important;
+  background: transparent;
+  padding: 30px;
+  border-radius: 10px;
+}
+.swiper-button-next {
+  right: 40px !important;
+  background: transparent;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* .swiper-card{
+  opacity: .8;
+    transform: scale(90%);
+} */
+/* .swiper-slide-active .swiper-card{
+ border: 1px solid #fd851c;
+ opacity: 1;
+    transform: scale(100%);
+} */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "" !important;
+  font-family: none !important;
+  background-image: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+}
+.swiper-button-next:after {
+  background-image: none;
+}
+.inside{
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav ul li a{
+  font-family: "Questrial", sans-serif;
+
+}
+.base-protocol{
+  background-color: #594ce90f;
+    background-image: url(/ellipse.png);
+    padding: 100px 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    border-radius: 36px;
+}
+.bg-pro{
+  background-color: #5C5C5C0D;
+    background-image: url(/ellipse-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+.roadmap-bg{
+    background-image: url(/roadmap-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+.vedora-ai-logo{
+  width: 160px;
+  height: 26px;
+}
+
+
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1340px !important;
+    /* max-width: 1400px !important; */
+    margin: 0 auto;
+    padding-left:  20px;
+    padding-right:  20px;
+  }
+}
+.container {
+  padding-left:  20px;
+  padding-right:  20px;
+}
+
+@media (max-width: 767px) {
+  
+  .p-sm-0{
+    padding: 0 !important;
+  }
+  
+  .vedora-ai-logo{
+    width: 100px;
+    height: auto;
+  }
+  .base-protocol {
+    padding: 40px 0;
+    border-radius: 0;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .scroller {
+    padding: 20px;
+    border-radius: 0;
+    overflow-x: auto;
+  }
+  .scroller img{
+      min-width: 1100px;
+      object-position: center;
+  }
+  .roadmap-bg{
+    background-size: cover;
+    background-position: center center;
+}
+  
+  }
