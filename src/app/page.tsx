@@ -71,9 +71,10 @@ export default function Home() {
           <h2 className="text-[40px] leading-[56px] md:text-[64px] lg:leading-[74px] font-[300] mb-3">What is Vedora.AI</h2>
           <p className="max-w-[970px]">Vedora.AI is the infrastructure layer enabling the future of decentralized AI — combining smart contracts, agent economies, and machine learning at scale.</p>
         </div>
+      
+      </div>
       <div className="mask md:mt-16">
         <Carousel />
-      </div>
       </div>
     </section>
 

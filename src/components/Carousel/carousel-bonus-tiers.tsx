@@ -16,6 +16,7 @@ const Carousel = () => {
       spaceBetween={10}
       centeredSlides={false}
       initialSlide={1.2}
+      slidesPerView= {1.2}
       loop= {true}
       autoplay={true}
       navigation
@@ -26,14 +27,14 @@ const Carousel = () => {
           initialSlide: 1,
         },
         1024: {
-          slidesPerView: 3.8,
+          slidesPerView: 4.5,
           spaceBetween: 10,
           initialSlide: 1,
         },
       }}
     >
       <SwiperSlide className="carousel-card">
-        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] p-[40px]">
+        <div className="swiper-card flex flex-col gap-2 bg-[#594ce910]  rounded-[36px] md:p-[40px] p-[24px]">
           <div className="inside">
             <h4 className="mb-3 font-[400] text-[36px] text-[#594CE9] text-center">Develop</h4>
             {/* <img src="assets/w1.png" className="w-full mb-4" alt="" /> */}
