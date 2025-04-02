@@ -7,10 +7,16 @@ import { Roadmap } from "@/components/Roadmap/ui";
 import { FAQ } from "@/components/FAQ/ui";
 import Contact from "@/components/ContactUs";
 import Footer from "@/components/footer";
+import CountUp, { useCountUp } from "react-countup";
 
 
 export default function Home() {
-  
+  useCountUp({
+    ref: 'counter',
+    end: 1234567,
+    enableScrollSpy: true,
+    scrollSpyDelay: 2000,
+  });
   const [index, setIndex] = useState(0);
   const words = ['AI Agents','AI Agents','AI Agents','AI Agents'];
 
@@ -30,7 +36,7 @@ export default function Home() {
           <div className="w-full lg:w-6/12 md:pt-8">
               <h1 className="md:text-[70px] text-[60px] font-[300] md:flex gap-2 md:leading-[90px] leading-[70px]">Build <TextTransition className=""
                springConfig={presets.gentle}>   <span className="text-[#594CE9]">{words[index]}</span>  </TextTransition></h1>
-               <h1 className="md:text-[70px] text-[60px] font-[300] inline-block lg:leading-[20px] leading-[70px]"> on Vedora.ai</h1>
+               <h1 className="md:text-[70px] text-[60px] font-[300] inline-block lg:leading-[80px] leading-[70px]"> on Vedora.ai</h1>
               <p className="text-[20px] md:text-[22px] mt-8 mb-12">Vedora.ai is a Layer 2 blockchain that serves as the infrastructure layer for 
                 AI-enabled applications.   </p>              
             <div className="flex flex-wrap gap-6">
@@ -92,7 +98,7 @@ export default function Home() {
         <img src="/icons/tn1.svg" alt="Transaction Icon" />
         <span className="text-[22px] font-[400]">Total transaction</span>
       </div>
-      <h2 className="text-[30px] md:text-[40px] font-[600] text-right">2,294,029</h2>
+      <h2 className="text-[30px] md:text-[40px] font-[600] text-right"><CountUp end={2294029} enableScrollSpy separator="," /></h2>
     </div>
 
     <div className="bg-[#5C5C5C0D] rounded-[36px] p-6 flex flex-col gap-10 justify-between">
@@ -100,7 +106,7 @@ export default function Home() {
         <img src="/icons/tn2.svg" alt="Blocks Icon" />
         <span className="text-[22px] font-[400]">Total blocks</span>
       </div>
-      <h2 className="text-[30px] md:text-[40px] font-[600] text-right">2,295,594</h2>
+      <h2 className="text-[30px] md:text-[40px] font-[600] text-right"><CountUp end={2295594} enableScrollSpy separator="," /></h2>
     </div>
 
     {/* Second Row */}
@@ -109,7 +115,7 @@ export default function Home() {
         <img src="/icons/tn3.svg" alt="Wallet Icon" />
         <span className="text-[22px] font-[400]">Wallet addresses</span>
       </div>
-      <h2 className="text-[30px] md:text-[40px] font-[600] text-right">2,552</h2>
+      <h2 className="text-[30px] md:text-[40px] font-[600] text-right"><CountUp end={2552} enableScrollSpy separator="," /></h2>
     </div>
 
     <div className="bg-[#5C5C5C0D] rounded-[36px] p-6 flex flex-col gap-10 justify-between">
@@ -117,12 +123,12 @@ export default function Home() {
         <img src="/icons/tn4.svg" alt="Gas Icon" />
         <span className="text-[22px] font-[400]">Gas tracker</span>
       </div>
-      <h2 className="text-[30px] md:text-[40px] font-[600] text-right">43,200</h2>
+      <h2 className="text-[30px] md:text-[40px] font-[600] text-right"><CountUp end={43200} enableScrollSpy separator="," /></h2>
     </div>
   </div>
 
   <div className="md:col-span-5 bg-[#5C5C5C0D] rounded-[36px] p-6 flex flex-col gap-10 justify-between">
-    <h2 className="text-[50px] font-[600] self-end">2s</h2>
+    <h2 className="text-[50px] font-[600] self-end"><CountUp end={2} enableScrollSpy/>s</h2>
     <div className="flex items-center space-x-2">
       <img src="/icons/tn4.svg" alt="Time Icon" />
       <span className="text-[22px] font-[400]">Average block time</span>
@@ -142,10 +148,10 @@ export default function Home() {
       <div className="w-full lg:w-5/12">
         <h2 className="text-[40px] leading-[56px] md:text-[64px] lg:leading-[74px] font-[300] mb-3">Tokenomics</h2>
         <p className="text-[16px md:text-[18px] mb-6 md:mb-8">
-          Explore DeepNet&apos;s tokenomics — simple and effective.
+          Explore Vedora&apos;s tokenomics — simple and effective.
           Our smart contracts are fully audited, enhancing safety
           and transparency. Dive into our whitepaper to discover
-          more about how DeepNet.ai works.
+          more about how Vedora.ai works.
         </p>
 
         {/* Buttons */}

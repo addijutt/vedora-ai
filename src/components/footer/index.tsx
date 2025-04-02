@@ -15,7 +15,7 @@ const Footer= () => {
             alt="vedora-ai logo"
           />
         </Link>
-          <p className="text-xs">© 2025 Vendor.ai. All Rights Reserved.</p>
+          <p className="text-xs">© 2025 Vedora.ai. All Rights Reserved.</p>
         </div>
         </div>
         <div className="w-full md:w-2/12 md:mb-0 mb-2">
@@ -49,7 +49,7 @@ const Footer= () => {
             any financial, legal, technical, or other decisions, you should seek independent 
             professional advice from a licensed and qualified individual in the area for which 
             such advice would be appropriate. This information is not intended to be comprehensive 
-            or address all aspects of DeepNet.ai or its products. You shall not purchase or otherwise 
+            or address all aspects of Vedora.ai or its products. You shall not purchase or otherwise 
             acquire any of our token products if you are: a citizen, resident (tax or otherwise), 
             green card holder, incorporated in, owned or controlled by a person or entity in, 
             located in, or have a registered office or principal place of business in the U.S. 

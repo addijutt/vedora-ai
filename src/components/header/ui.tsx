@@ -19,8 +19,9 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="relative container py-4" id="home">
-      <div className="flex items-center justify-between w-full gap-4 md:p-4">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-[#fff]/70">
+     <div className="container">
+     <div className="flex items-center justify-between w-full gap-4 md:py-4 py-3">
         <button 
           className="h-[48px] w-[48px] rounded-full bg-gray-200 hover:bg-gray-300 transition md:hidden" 
           onClick={(e) => {
@@ -84,6 +85,7 @@ export const Header = () => {
           <NavMenu />
         </motion.div>
       )}
+     </div>
     </header>
   );
 };

@@ -109,7 +109,10 @@ nav ul li a{
   width: 160px;
   height: 26px;
 }
-
+#home{
+  position: sticky;
+  top: 0;
+}
 
 
 @media (min-width: 1300px) {

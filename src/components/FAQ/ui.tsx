@@ -49,7 +49,7 @@ const faqData = [
       "Yes, the testnet is live and active. We've already published the block explorer so anyone can start interacting with it and tracking transactions.",
   },
   {
-    question: "Can I deploy smart contracts on DeepNet already?",
+    question: "Can I deploy smart contracts on Vedora.ai already?",
     answer: "Currently, we are in the test phase, and mainnet deployment is coming soon.",
   },
   {

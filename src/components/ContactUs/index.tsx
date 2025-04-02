@@ -36,12 +36,12 @@ const Contact = () => {
           </button>
         </div>
 
-        <label className="custom-checkbox-container max-w-lg">
+        <label className="custom-checkbox-container max-w-md">
       <input type="checkbox" checked={checked}
             onChange={() => setChecked(!checked)} defaultChecked />
       <span className="checkmark"></span>
       <span className="checkbox-text">
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
+      I agree to the terms and conditions as set out by the user agreement.
       </span>
     </label>
         
