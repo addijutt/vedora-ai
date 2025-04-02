@@ -1,13 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [checked, setChecked] = useState(false);
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     if (email && checked) {
       alert(`Subscribed with: ${email}`);

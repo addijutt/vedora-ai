@@ -1,6 +1,5 @@
 "use client";
 import { NavLink } from "@/components/nav-link";
-import { useCallback } from "react";
 
 export const NavMenu = () => {
 

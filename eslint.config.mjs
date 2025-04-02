@@ -11,6 +11,20 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@typescript-eslint/no-explicit-any": "warn", // Optional: Downgrade error to warning
+      "@typescript-eslint/ban-types": [
+        "error",
+        {
+          types: {
+            "null": "Allowing `null` as a valid type",
+          },
+          extendDefaults: true,
+        },
+      ],
+    },
+  },
 ];
 
 export default eslintConfig;

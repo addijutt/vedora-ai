@@ -142,7 +142,7 @@ export default function Home() {
       <div className="w-full lg:w-5/12">
         <h2 className="text-[40px] leading-[56px] md:text-[64px] lg:leading-[74px] font-[300] mb-3">Tokenomics</h2>
         <p className="text-[16px md:text-[18px] mb-6 md:mb-8">
-          Explore DeepNet's tokenomics — simple and effective.
+          Explore DeepNet&apos;s tokenomics — simple and effective.
           Our smart contracts are fully audited, enhancing safety
           and transparency. Dive into our whitepaper to discover
           more about how DeepNet.ai works.
@@ -309,7 +309,7 @@ export default function Home() {
         <h2 className="text-[40px] leading-[56px] md:text-[64px] lg:leading-[74px] font-[300] mb-3">Unlocking the AI Agent Economy</h2>
         <p className="text-[16px md:text-[18px] mb-6 md:mt-8">
         Advances in AI are embedding billions of autonomous agents into daily life. 
-        Today, these agents are not just tools—they're independent entities shaping the future.
+        Today, these agents are not just tools—they&apos;re independent entities shaping the future.
         </p>
 
         {/* Buttons */}
