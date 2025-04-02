@@ -74,7 +74,7 @@ export const Header = () => {
           animate={{ x: 0 }} 
           exit={{ x: "-100%" }}
           transition={{ duration: 0.3 }}
-          className="fixed top-0 left-0 w-64 h-full bg-white shadow-lg p-5 z-50 md:hidden mobile-menu"
+          className="fixed top-0 left-0 w-64 bg-white shadow-lg p-5 z-50 h-[100vh] md:hidden mobile-menu"
         >
           <button 
             className="absolute top-5 right-5 p-2 text-xl" 

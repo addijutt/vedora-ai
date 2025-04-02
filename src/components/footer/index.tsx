@@ -21,9 +21,9 @@ const Footer= () => {
         <div className="w-full md:w-2/12 md:mb-0 mb-2">
         <div className="flex flex-wrap md:items-start md:flex-col space-x-4 md:gap-4 mt-4 md:mt-0">
           <a href="#" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> About </a>
-          <a href="#" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> Features </a>
-          <a href="#" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> Token </a>
-          <a href="#" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> FAQ </a>
+          <a href="#features" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> Features </a>
+          <a href="#token" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> Token </a>
+          <a href="#faq" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> FAQ </a>
           <a href="#" className="relative text-[16px] md:text-[18px] hover:text-[#594CE9] after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-[#594CE9] after:transition-all after:duration-300 hover:after:w-full"> Use Cases </a>
         </div>
         </div>

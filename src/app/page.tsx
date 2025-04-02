@@ -55,7 +55,7 @@ export default function Home() {
     </section>
 
 
-    <section className="pt-6">
+    <section className="pt-6" id="features">
       <div className="container">
         <div className="my-6 lg:pb-5">
           <h2 className="text-[40px] leading-[56px] md:text-[64px] lg:leading-[74px] font-[300]">Featured in</h2>
@@ -141,7 +141,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="py-10">
+    <section className="py-10" id="token">
       <div className="container">
       <div className="flex flex-col lg:flex-row items-center justify-between md:py-10">
       {/* Left Content */}
@@ -329,7 +329,7 @@ export default function Home() {
 
       {/* Right Chart */}
       <div className="w-full lg:w-6/12 flex justify-center mt-12 lg:mt-0 md:px-20 ">
-          <img src="/AE.png" alt="Tokenomics Chart" className="w-full" />
+          <img src="/AE.png" alt="Mobile Mockup" className="w-full" />
       </div>
     </div>
 
@@ -350,7 +350,7 @@ export default function Home() {
       </div>
       </section>
 
-      <section className="py-10">
+      <section className="py-10" id="faq">
     <div className="container">
       <FAQ />
       </div>

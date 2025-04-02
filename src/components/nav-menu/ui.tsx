@@ -5,7 +5,7 @@ export const NavMenu = () => {
 
   const navItems = [
     {
-      to: "#home",
+      to: "#",
       label: "About",
     },
     {
